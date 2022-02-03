@@ -41,7 +41,7 @@ After this testing, I replaced the missing variables in the dataset with mean an
 
 Another way to approach missing data is to determine if the variable is clinically relevant. The goal is to determine risk of mortality for heart failure patients in the ICU. Is depression status routinely evaluated? Is it clinically relevant? 
 
-### Step 2: Exploratory data analysis
+### Step  2: Exploratory data analysis
 
 Seaborn vs. Tableau Pair Plot
 I used Python’s Seaborn pair plot and heatmap functions to see relationships between each combination of variables. Due to the sheer number of variables it is difficult to see a pattern. Tableau may provide a better visualization then Python in this case. See the Tableau interactive pair plot:  https://public.tableau.com/shared/TRGKHJ825. 
