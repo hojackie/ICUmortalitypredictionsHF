@@ -28,7 +28,32 @@ There are various suggested methods on how to work with missing continuous varia
 
 To accomplish this, I created 2 data arrays. One data array for the original data set with missing variables. The second data array with missing variables replaced by the mean (imputed data array). I used a loop to graph each variable in the original vs. imputed data array to see how close the imputed data distribution was to the original. As seen below, replacing missing values with mean worked well for some but not all variables. 
  
+'''
 
+#Replace null value of continuous variables with the mean. Then compare the imputed value vs. the actual value in the data set
+df_select = df[['BMI','heart rate','Systolic blood pressure','Diastolic blood pressure','Respiratory rate',
+                  'temperature','SP O2','Urine output','Neutrophils','Basophils','Lymphocyte','PT','INR','Creatine kinase',
+                  'glucose','Blood calcium','PH','Lactic acid','PCO2']]
+df_imputed = df.fillna(df[['BMI','heart rate','Systolic blood pressure','Diastolic blood pressure','Respiratory rate',
+                  'temperature','SP O2','Urine output','Neutrophils','Basophils','Lymphocyte','PT','INR','Creatine kinase',
+                  'glucose','Blood calcium','PH','Lactic acid','PCO2']].mean())
+
+ListOfVariables = ['BMI','heart rate','Systolic blood pressure','Diastolic blood pressure','Respiratory rate',
+                  'temperature','SP O2','Urine output','Neutrophils','Basophils','Lymphocyte','PT','INR','Creatine kinase',
+                  'glucose','Blood calcium','PH','Lactic acid','PCO2']
+    
+for item in ListOfVariables:
+    fig = plt.figure()
+    ax = fig.add_subplot(111)
+    first_axis = df_select[item].plot(kind='kde', ax=ax) #Looping through every item in the dataframe.
+    second_axis = first_axis.twinx() #The Twinx function to ensure we share the X-Axis for both plots
+    second_axis= df_imputed[item].plot(kind='kde', ax=ax, color = 'orange')
+    lines, labels = ax.get_legend_handles_labels()
+    ax.legend(lines, labels, loc='best')   
+    plt.title(item)
+    plt.show()
+    
+ '''
    
 
 I then took the variables that did not match closely with the imputed data array (using the mean replacement method above) and repeated the process using the median replacement method. Unfortunately, none of the imputed median variables came close to the distribution of the original dataset. 
