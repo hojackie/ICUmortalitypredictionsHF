@@ -93,7 +93,7 @@ I graphed the AUC of the test and train data set using the variables identified 
 ### Building and Comparing Predictive Models 
 Using the final set of independent variables, I train-test split the data again and ran it through different models using the ensemble approach to determine which model gives you the best AUC with least error. 
 
-![12](https://user-images.githubusercontent.com/87457603/152285190-2c68fc27-976b-4f1c-871c-c8e430ed5e7b.PNG)
+![12](https://user-images.githubusercontent.com/87457603/152286916-0f15253e-cf39-4f16-a720-f8b0ded5e12d.PNG)
 ![13](https://user-images.githubusercontent.com/87457603/152285192-0fb047ea-734b-438b-b0e1-536edbe0dd70.png)
     
 
@@ -102,6 +102,7 @@ Our winner is the logistic regression model with an AUC of 87%. There are of cou
 ## Discussion 
 Real World Application – Interactive Risk Calculator
 A risk calculator was created to test out the model in real time. You can use the calculator in the notebook here: https://github.com/hojackie/ICUmortalitypredictionsHF! 
+
 ![14](https://user-images.githubusercontent.com/87457603/152285193-d91974b3-7893-48b4-8e39-cab43910a1fa.png) 
 
 As you can probably imagine, 32 variables are a lot of variables to enter into a calculator. For further refinement of the model – I would recommend minimizing the number of variables and see if you can still maintain good AUC with reduced error rates. 
@@ -139,8 +140,10 @@ Special thanks to my mentor Pasquale Prosperati for providing guidance on this p
 3)	Jackson SL, Tong X, King RJ, Loustalot F, Hong Y, Ritchey MD. National Burden of Heart Failure Events in the United States, 2006 to 2014. Circ Heart Fail. 2018 Dec;11(12):e004873. doi: 10.1161/CIRCHEARTFAILURE.117.004873. 
 4)	Nair R, Lak H, Hasan S, Gunasekaran D, Babar A, Gopalakrishna KV. Reducing All-cause 30-day Hospital Readmissions for Patients Presenting with Acute Heart Failure Exacerbations: A Quality Improvement Initiative. Cureus. 2020 Mar 25;12(3):e7420. doi: 10.7759/cureus.7420. 
 
-
+## Author
 ![16](https://user-images.githubusercontent.com/87457603/152285196-1714ecca-ced1-496e-a9c2-69c9c017176d.png)
+
 Jackie Ho, Pharm.D., BCPS, MPH
+
 https://www.linkedin.com/in/hojackie/
 
