@@ -63,7 +63,7 @@ For categorical variables, I used bar charts in Python and a bubble chart in Tab
 I was also curious about the number of comorbidities that each patient had and its affect on mortality. 
 At first glance it appears that having more comorbidities results in less death. However, this can be confounded by multiple factors including disease severity, initial reason for admission, sample size, etc. 
 
-This is one of the reasons why a deeper dive on how all the variables contribute to mortality as a whole is needed. Tableau chart [here] (https://public.tableau.com/shared/5HF3X7M2B).
+This is one of the reasons why a deeper dive on how all the variables contribute to mortality as a whole is needed. Tableau chart [here](https://public.tableau.com/shared/5HF3X7M2B).
 
 ![8](https://user-images.githubusercontent.com/87457603/152285186-e2f65bb8-3e09-4621-8366-33b7f7dac71c.png)
 ![9](https://user-images.githubusercontent.com/87457603/152285187-957782a7-7bab-4055-91c0-db8616418182.png)
@@ -101,7 +101,7 @@ Our winner is the logistic regression model with an AUC of 87%. There are of cou
 
 ## Discussion 
 Real World Application – Interactive Risk Calculator
-A risk calculator was created to test out the model in real time. You can use the calculator in the notebook [here] (https://github.com/hojackie/ICUmortalitypredictionsHF)! 
+A risk calculator was created to test out the model in real time. You can use the calculator in the notebook [here](https://github.com/hojackie/ICUmortalitypredictionsHF/blob/main/ICU%20Mortality%20Predictions%20in%20HF%20Patients.ipynb)! 
 
 ![14](https://user-images.githubusercontent.com/87457603/152285193-d91974b3-7893-48b4-8e39-cab43910a1fa.png) 
 
@@ -122,7 +122,7 @@ This capstone definitely challenged me and furthered my growth in data analytics
 ## Suggested Resources
 Here are some resources I used to learn about predictive modeling: 
 
-1.	DataCamp Introduction to Predictive Analytics in Python:  [https://app.datacamp.com/learn/courses/introduction-to-predictive-analytics-in-python] (https://app.datacamp.com/learn/courses/introduction-to-predictive-analytics-in-python)
+1.	DataCamp Introduction to Predictive Analytics in Python: [https://app.datacamp.com/learn/courses/introduction-to-predictive-analytics-in-python](https://app.datacamp.com/learn/courses/introduction-to-predictive-analytics-in-python)
 
 2. DataCamp Intermediate Predictive Analytics in Python [https://app.datacamp.com/learn/courses/intermediate-predictive-analytics-in-python](https://app.datacamp.com/learn/courses/intermediate-predictive-analytics-in-python)
 
@@ -134,7 +134,7 @@ Here are some resources I used to learn about predictive modeling:
 
 6.	Understanding Forward and Backward Stepwise Regression: [https://quantifyinghealth.com/stepwise-selection/](https://quantifyinghealth.com/stepwise-selection/)
 
-7.	AUC-ROC Curve in Machine Learning Clearly Explained [https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/#:~:text=The%20Area%20Under%20the%20Curve,the%20positive%20and%20negative%20classes](https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/#:~:text=The%20Area%20Under%20the%20Curve,the%20positive%20and%20negative%20classes).
+7.	AUC-ROC Curve in Machine Learning Clearly Explained [https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/#:~:text=The%20Area%20Under%20the%20Curve,the%20positive%20and%20negative%20classes](https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/#:~:text=The%20Area%20Under%20the%20Curve,the%20positive%20and%20negative%20classes)
 
 8)	Google’s Machine Learning Crash Course [https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
 
@@ -146,7 +146,7 @@ Special thanks to my mentor Pasquale Prosperati for providing guidance on this p
 
 1.	Li F, Xin H, Zhang J, Fu M, Zhou J, Lian Z. Prediction model of in-hospital mortality in intensive care unit patients with heart failure: machine learning-based, retrospective analysis of the MIMIC-III database. BMJ Open. 2021 Jul 23;11(7):e044779. doi: 10.1136/bmjopen-2020-044779. 
 
-2.	Huesh MD, Mosher TJ. Using it or losing it? The case for data scientists inside health care. NEJM Catalyst website. [https://catalyst.nejm.org/doi/abs/10.1056/CAT.17.049] (https://catalyst.nejm.org/doi/abs/10.1056/CAT.17.049). Accessed December 21, 2021.
+2.	Huesh MD, Mosher TJ. Using it or losing it? The case for data scientists inside health care. NEJM Catalyst website. [https://catalyst.nejm.org/doi/abs/10.1056/CAT.17.049](https://catalyst.nejm.org/doi/abs/10.1056/CAT.17.049). Accessed December 21, 2021.
 
 3.	Jackson SL, Tong X, King RJ, Loustalot F, Hong Y, Ritchey MD. National Burden of Heart Failure Events in the United States, 2006 to 2014. Circ Heart Fail. 2018 Dec;11(12):e004873. doi: 10.1161/CIRCHEARTFAILURE.117.004873. 
 
@@ -157,5 +157,5 @@ Special thanks to my mentor Pasquale Prosperati for providing guidance on this p
 
 Jackie Ho, Pharm.D., BCPS, MPH
 
-[LinkedIn] (https://www.linkedin.com/in/hojackie/) [Github] (https://github.com/hojackie) [Tableau]  (https://public.tableau.com/app/profile/jackie.ho8166) [GoogleScholar] (https://scholar.google.com/citations?user=Jq70VXsAAAAJ&hl=en&oi=ao)
+[LinkedIn](https://www.linkedin.com/in/hojackie/) [Github](https://github.com/hojackie) [Tableau](https://public.tableau.com/app/profile/jackie.ho8166) [GoogleScholar](https://scholar.google.com/citations?user=Jq70VXsAAAAJ&hl=en&oi=ao)
 
