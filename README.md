@@ -136,7 +136,7 @@ Here are some resources I used to learn about predictive modeling:
 
 7.	AUC-ROC Curve in Machine Learning Clearly Explained [https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/#:~:text=The%20Area%20Under%20the%20Curve,the%20positive%20and%20negative%20classes](https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/#:~:text=The%20Area%20Under%20the%20Curve,the%20positive%20and%20negative%20classes)
 
-8)	Google’s Machine Learning Crash Course [https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
+8.	Google’s Machine Learning Crash Course [https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
 
 
 ## Acknowledgements
