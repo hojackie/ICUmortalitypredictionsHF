@@ -121,13 +121,21 @@ This capstone definitely challenged me and furthered my growth in data analytics
 
 ## Suggested Resources
 Here are some resources I used to learn about predictive modeling: 
+
 1)	DataCamp Introduction to Predictive Analytics in Python: https://app.datacamp.com/learn/courses/introduction-to-predictive-analytics-in-python
+
 2)	DataCamp Intermediate Predictive Analytics in Python https://app.datacamp.com/learn/courses/intermediate-predictive-analytics-in-python
+
 3)	DataCamp Ensemble Methods in Python https://app.datacamp.com/learn/courses/ensemble-methods-in-python
+
 4)	DataCamp Machine Learning with Tree-Based Models in Python https://app.datacamp.com/learn/courses/machine-learning-with-tree-based-models-in-python
+
 5)	DataCamp Supervised Learning with scikit-learn https://app.datacamp.com/learn/courses/supervised-learning-with-scikit-learn
+
 6)	Understanding Forward and Backward Stepwise Regression: https://quantifyinghealth.com/stepwise-selection/
+
 7)	AUC-ROC Curve in Machine Learning Clearly Explained https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/#:~:text=The%20Area%20Under%20the%20Curve,the%20positive%20and%20negative%20classes.
+
 8)	Google’s Machine Learning Crash Course https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc
 
 
@@ -135,9 +143,13 @@ Here are some resources I used to learn about predictive modeling:
 Special thanks to my mentor Pasquale Prosperati for providing guidance on this project.
 
 ## References
+
 1)	Li F, Xin H, Zhang J, Fu M, Zhou J, Lian Z. Prediction model of in-hospital mortality in intensive care unit patients with heart failure: machine learning-based, retrospective analysis of the MIMIC-III database. BMJ Open. 2021 Jul 23;11(7):e044779. doi: 10.1136/bmjopen-2020-044779. 
+
 2)	Huesh MD, Mosher TJ. Using it or losing it? The case for data scientists inside health care. NEJM Catalyst website. https://catalyst.nejm.org/doi/abs/10.1056/CAT.17.049. Accessed December 21, 2021.
+
 3)	Jackson SL, Tong X, King RJ, Loustalot F, Hong Y, Ritchey MD. National Burden of Heart Failure Events in the United States, 2006 to 2014. Circ Heart Fail. 2018 Dec;11(12):e004873. doi: 10.1161/CIRCHEARTFAILURE.117.004873. 
+
 4)	Nair R, Lak H, Hasan S, Gunasekaran D, Babar A, Gopalakrishna KV. Reducing All-cause 30-day Hospital Readmissions for Patients Presenting with Acute Heart Failure Exacerbations: A Quality Improvement Initiative. Cureus. 2020 Mar 25;12(3):e7420. doi: 10.7759/cureus.7420. 
 
 ## Author
