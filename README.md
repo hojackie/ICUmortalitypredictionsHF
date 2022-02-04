@@ -43,7 +43,7 @@ Another way to approach missing data is to determine if the variable is clinical
 
 ### Step 2: Exploratory data analysis
 
-Seaborn vs. Tableau Pair Plot
+### Seaborn vs. Tableau Pair Plot
 I used Python’s Seaborn pair plot and heatmap functions to see relationships between each combination of variables. Due to the sheer number of variables it is difficult to see a pattern. Tableau may provide a better visualization then Python in this case. See the Tableau interactive pair plot [here](https://public.tableau.com/shared/TRGKHJ825). 
 
 #### Python’s Seaborn Pair Plot
@@ -100,7 +100,7 @@ Using the final set of independent variables, I train-test split the data again 
 Our winner is the logistic regression model with an AUC of 87%. There are of course many more models and boosting techniques to increase the AUC score of machine learning models. This capstone scratches the surface but hopefully provides some insights on the different possibilities with this data set. 
 
 ## Discussion 
-Real World Application – Interactive Risk Calculator
+### Real World Application – Interactive Risk Calculator
 A risk calculator was created to test out the model in real time. You can use the calculator in the notebook [here](https://github.com/hojackie/ICUmortalitypredictionsHF/blob/main/ICU%20Mortality%20Predictions%20in%20HF%20Patients.ipynb)! 
 
 ![14](https://user-images.githubusercontent.com/87457603/152285193-d91974b3-7893-48b4-8e39-cab43910a1fa.png) 
@@ -113,7 +113,7 @@ From a clinical standpoint, some variables did not seem as significant as others
 For fun, I decided to pick a few variables that I thought were significant to mortality (a clinician’s best guess) and compare the AUC generated vs. using the forward stepwise approach. I attempted to remove what I thought were “duplicate” variables. For example: if creatinine is high it is likely the patient has some form of renal failure. Thus, I would either choose creatinine or renal failure vs. looking at both variables. I also prioritized variables that were routinely available upon initial admission to the ICU. Here are the results: 
 ![15](https://user-images.githubusercontent.com/87457603/152285194-3bdfd126-4333-48a4-a8ff-3c96ad0ac934.png) 
 
-The accuracy and error rates are quite similar between the two approaches with the Clinician’s pick having less variables to contend with. 
+The accuracy and error rates are quite similar between the two approaches with the Clinician’s Pick having less variables to contend with. 
 
 ## Final Thoughts
 This capstone definitely challenged me and furthered my growth in data analytics. At the start of this project I did not anticipate needing to learn about predictive modeling or machine learning. This is a good example of how there is no one size fits all when it comes to analyzing data, each problem can be approached from different angles. As this is my first attempt at predictive modeling – I welcome any comments or constructive feedback. 
